@@ -53,7 +53,7 @@ length_var = tk.StringVar(value='8')
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack()
 
-label = tk.Label(frame, text=baner, fg='red')
+label = tk.Label(frame, text=baner, fg='black')
 label.pack()
 
 options_label = tk.Label(frame, text='Выберите опции для использования:')
