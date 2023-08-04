@@ -49,7 +49,6 @@ frame = tk.Frame(root, padx=10, pady=10)
 frame.pack()
 
 
-
 options_label = tk.Label(frame, text='Выберите опции для использования:')
 options_label.pack()
 
@@ -82,5 +81,5 @@ exit_button.pack()
 
 copy_button = tk.Button(frame, text='Копировать', state='disabled', command=copy_password)
 copy_button.pack()
-#C:\Users\Maksim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyinstaller.exe  путь ка запаковщику
+
 root.mainloop()
